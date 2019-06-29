@@ -1,3 +1,4 @@
 # Ignore gradle dirctories
 gradle/
 idea/
+gradle/wrapper
