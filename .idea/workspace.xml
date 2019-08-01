@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca1c7c72-d076-443c-867c-521ef571cb34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/datastructures/practiceimplementations/DynamicArrayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/practiceimplementations/DynamicArrayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructures/practiceimplementations/interfaces/DynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/datastructures/practiceimplementations/DynamicArrayImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/datastructures/practiceimplementations/DynamicArrayImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructures/practiceimplementations/DynamicArrayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/practiceimplementations/DynamicAutoResizingArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,39 +43,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/practiceimplementations/DynamicArrayImpl.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/practiceimplementations/DynamicAutoResizingArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+            <state relative-caret-position="-1545">
+              <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#77#107#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
-                <element signature="e#2233#2234#0" expanded="true" />
-                <element signature="e#2313#2314#0" expanded="true" />
-                <element signature="e#2458#2459#0" expanded="true" />
-                <element signature="e#2502#2503#0" expanded="true" />
-                <element signature="e#2606#2607#0" expanded="true" />
-                <element signature="e#2655#2656#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#2168#2169#0" expanded="true" />
+                <element signature="e#2431#2432#0" expanded="true" />
+                <element signature="e#2931#2932#0" expanded="true" />
+                <element signature="e#3239#3240#0" expanded="true" />
+                <element signature="e#3283#3284#0" expanded="true" />
+                <element signature="e#3369#3370#0" expanded="true" />
+                <element signature="e#3418#3419#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/practiceimplementations/interfaces/DynamicArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,6 +93,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -108,8 +118,11 @@
         <option value="$PROJECT_DIR$/src/main/java/datastructures/examples/DynamicArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithms/examples/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/practiceimplementations/DyanamicArrayImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/practiceimplementations/DynamicArrayImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datastructures/practiceimplementations/interfaces/DyanamicArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datastructures/practiceimplementations/interfaces/DynamicArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datastructures/practiceimplementations/DynamicAutoResizingArray.java" />
       </list>
     </option>
   </component>
@@ -169,24 +182,6 @@
               <item name="AlgorithmsDataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgorithmsDataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmsDataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmsDataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="practiceimplementations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmsDataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmsDataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -213,7 +208,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564634299565" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564671777942" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../weather-tracker-el2213sabc5" />
   </component>
   <component name="RecentsManager">
@@ -319,9 +314,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1965124" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1965124" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -450,38 +444,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/practiceimplementations/DynamicAutoResizingArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        <state relative-caret-position="-1545">
+          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#77#107#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#2168#2169#0" expanded="true" />
+            <element signature="e#2431#2432#0" expanded="true" />
+            <element signature="e#2931#2932#0" expanded="true" />
+            <element signature="e#3239#3240#0" expanded="true" />
+            <element signature="e#3283#3284#0" expanded="true" />
+            <element signature="e#3369#3370#0" expanded="true" />
+            <element signature="e#3418#3419#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/practiceimplementations/DynamicArrayImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/practiceimplementations/interfaces/DynamicArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="e#77#107#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#2233#2234#0" expanded="true" />
-            <element signature="e#2313#2314#0" expanded="true" />
-            <element signature="e#2458#2459#0" expanded="true" />
-            <element signature="e#2502#2503#0" expanded="true" />
-            <element signature="e#2606#2607#0" expanded="true" />
-            <element signature="e#2655#2656#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

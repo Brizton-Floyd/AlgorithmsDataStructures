@@ -1,12 +1,11 @@
-import datastructures.practiceimplementations.DynamicArrayImpl;
-
-import java.util.Iterator;
+import datastructures.practiceimplementations.DynamicAutoResizingArray;
+import datastructures.practiceimplementations.interfaces.DynamicArray;
 
 public class App {
 
     public static void main(String[] args) {
 
-        DynamicArrayImpl<Integer> integerDynamicArray = new DynamicArrayImpl<>();
+        DynamicArray<Integer> integerDynamicArray = new DynamicAutoResizingArray<>();
         integerDynamicArray.add(99);
         integerDynamicArray.add(89);
         integerDynamicArray.add(29);
@@ -21,13 +20,15 @@ public class App {
         System.out.println(integerDynamicArray.contains(33));
         System.out.println(integerDynamicArray.contains(55));
         System.out.println(integerDynamicArray.indexOf(33));
-        System.out.println(integerDynamicArray.get(2));
-        //integerDynamicArray.clear();
+        System.out.println(integerDynamicArray.get(0));
+        integerDynamicArray.removeAt(1);
         System.out.println(integerDynamicArray);
+        System.out.println(integerDynamicArray.size());
 
         // Print out the values
         for (Integer integer : integerDynamicArray) {
             System.out.println(integer);
         }
+
     }
 }
