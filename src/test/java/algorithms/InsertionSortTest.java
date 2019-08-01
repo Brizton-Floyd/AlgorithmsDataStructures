@@ -1,4 +1,4 @@
-package sortalgorithms;
+package algorithms;
 
 public class InsertionSortTest {
 
