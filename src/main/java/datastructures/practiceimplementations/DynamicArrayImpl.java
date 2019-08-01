@@ -84,7 +84,7 @@ public class DynamicArrayImpl<T> implements Iterable<T>{
     }
 
     private void validateIndex(int index){
-        if(index < 0 || index > capacity) throw new IndexOutOfBoundsException();
+        if(index >= len || index < 0) throw new IndexOutOfBoundsException();
     }
 
     @Override
