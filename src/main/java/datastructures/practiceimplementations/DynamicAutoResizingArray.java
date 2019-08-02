@@ -22,11 +22,11 @@ public class DynamicAutoResizingArray<T> implements DynamicArray<T> {
     @Override
     public void add(T element) {
         // Check to see if the array needs to be resized. A clear operation could have occurred previously
-        if(len + 1 > capacity){ Resize(); }
+        if(len + 1 > capacity){ resize(); }
         arr[len++] = element; // Finally add the new element to the array
     }
 
-    private void Resize() {
+    private void resize() {
         if(capacity == 0) {capacity = 1;}
         else {capacity *= 2;}
         T[] newArray = (T[]) new Object[capacity]; // new array to hold elements after resizing
