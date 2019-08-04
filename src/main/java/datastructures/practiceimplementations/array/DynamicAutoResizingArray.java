@@ -1,4 +1,4 @@
-package datastructures.practiceimplementations;
+package datastructures.practiceimplementations.array;
 
 import datastructures.practiceimplementations.interfaces.DynamicArray;
 
